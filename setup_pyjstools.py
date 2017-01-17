@@ -3,7 +3,7 @@ __VERSION__='0.8.1'
 
 packages=['pyjs', 'pyjs.builtin', 'pyjs.lib', 'pyjs.lib.logging', 'pyjs.lib.os', 'pyjs.lib.test',
           'pyjs.lib_trans', 'pyjs.lib_trans.pycompiler', 'pyjs.lib_trans.pyparser', 'pyjs.lib_trans.test',
-          'pyjs.boilerplate',
+          'pyjs.boilerplate', 'pyjs.contrib', 
           'pgen', 'pgen.lib2to3', 'pgen.lib2to3.pgen2', 'pgen.lib2to3.compiler', ]
 package_data={'pyjs': ['boilerplate/*.html', 'boilerplate/pyjampiler_wrapper.js.tmpl',
                        'builtin/__builtin__.py.in', 'builtin/public/*.js',
